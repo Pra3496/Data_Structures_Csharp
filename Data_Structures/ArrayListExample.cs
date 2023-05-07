@@ -19,7 +19,17 @@ namespace Data_Structures
         }
 
 
+        public void Display()
+        {
+            Console.WriteLine("Elements presents in ArrayList : ");
+            foreach (var i in arrayList)
+            {
+                Console.WriteLine(i);
+            }
+        }
 
-      
+
+
+
     }
 }

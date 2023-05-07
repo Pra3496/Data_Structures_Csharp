@@ -21,7 +21,12 @@ namespace Data_Structures
 
             arrayListExample.AddElement('A');
 
-            
+            arrayListExample.Display();
+
+            Console.Write("Enter the Search : ");
+            object ele =(object) Console.ReadLine();
+       
+            arrayListExample.SearchElement(ele);
 
             Console.ReadKey();
 
