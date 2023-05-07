@@ -28,6 +28,11 @@ namespace Data_Structures
             }
         }
 
+        public void RemoveElement(object elements)
+        {
+            arrayList.Remove(elements);
+        }
+
 
 
 
