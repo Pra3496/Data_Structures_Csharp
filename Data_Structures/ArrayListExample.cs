@@ -35,6 +35,24 @@ namespace Data_Structures
 
 
 
+        public void SearchElement(object element)
+        {
+            int i = 0;
+            for (i = 0; i < arrayList.Count; i++)
+            {
+
+                if (arrayList.Contains(element))
+                {
+                    Console.WriteLine("Present in List" + arrayList[i]);
+                    break;
+                }
+            }
+            if (i == arrayList.Count)
+            {
+                Console.WriteLine("Not Present in List ");
+            }
+
+        }
 
     }
 }
