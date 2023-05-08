@@ -7,6 +7,7 @@ namespace Data_Structures
     {
         static void Main(string[] args)
         {
+            /*
             Console.WriteLine("wellcome to ArrayList ");
 
             ArrayListExample arrayListExample = new ArrayListExample();
@@ -27,7 +28,12 @@ namespace Data_Structures
             object ele =(object) Console.ReadLine();
        
             arrayListExample.SearchElement(ele);
+            */
 
+
+            DictionaryExample example = new DictionaryExample();
+
+            example.DictionMethod();
             Console.ReadKey();
 
         }
